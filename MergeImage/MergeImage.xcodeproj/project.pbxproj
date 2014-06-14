@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D6E662D1945BDD400879CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6E662C1945BDD400879CCC /* Foundation.framework */; };
+		8D6E662F1945BDD400879CCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6E662E1945BDD400879CCC /* CoreGraphics.framework */; };
+		8D6E66311945BDD400879CCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6E66301945BDD400879CCC /* UIKit.framework */; };
+		8D6E66371945BDD400879CCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E66351945BDD400879CCC /* InfoPlist.strings */; };
+		8D6E66391945BDD400879CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E66381945BDD400879CCC /* main.m */; };
+		8D6E663D1945BDD400879CCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E663C1945BDD400879CCC /* AppDelegate.m */; };
+		8D6E66401945BDD400879CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E663E1945BDD400879CCC /* Main.storyboard */; };
+		8D6E66431945BDD400879CCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E66421945BDD400879CCC /* ViewController.m */; };
+		8D6E66451945BDD400879CCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E66441945BDD400879CCC /* Images.xcassets */; };
+		8D6E664C1945BDD400879CCC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6E664B1945BDD400879CCC /* XCTest.framework */; };
+		8D6E664D1945BDD400879CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6E662C1945BDD400879CCC /* Foundation.framework */; };
+		8D6E664E1945BDD400879CCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6E66301945BDD400879CCC /* UIKit.framework */; };
+		8D6E66561945BDD400879CCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E66541945BDD400879CCC /* InfoPlist.strings */; };
+		8D6E66581945BDD400879CCC /* MergeImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E66571945BDD400879CCC /* MergeImageTests.m */; };
+		8D6E66631945BE0B00879CCC /* UIImage+Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6E66621945BE0B00879CCC /* UIImage+Overlay.m */; };
+		8D6E66691945BFDC00879CCC /* audi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E66651945BFDC00879CCC /* audi.png */; };
+		8D6E666A1945BFDC00879CCC /* christmas.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E66661945BFDC00879CCC /* christmas.png */; };
+		8D6E666B1945BFDC00879CCC /* horse_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E66671945BFDC00879CCC /* horse_1.png */; };
+		8D6E666C1945BFDC00879CCC /* horse_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E66681945BFDC00879CCC /* horse_2.png */; };
+		8D6E666F1945C14500879CCC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E666E1945C14500879CCC /* background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D6E664F1945BDD400879CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D6E66211945BDD400879CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D6E66281945BDD400879CCC;
+			remoteInfo = MergeImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D6E66291945BDD400879CCC /* MergeImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6E662C1945BDD400879CCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D6E662E1945BDD400879CCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D6E66301945BDD400879CCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D6E66341945BDD400879CCC /* MergeImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MergeImage-Info.plist"; sourceTree = "<group>"; };
+		8D6E66361945BDD400879CCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D6E66381945BDD400879CCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D6E663A1945BDD400879CCC /* MergeImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MergeImage-Prefix.pch"; sourceTree = "<group>"; };
+		8D6E663B1945BDD400879CCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D6E663C1945BDD400879CCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D6E663F1945BDD400879CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D6E66411945BDD400879CCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D6E66421945BDD400879CCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D6E66441945BDD400879CCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D6E664A1945BDD400879CCC /* MergeImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6E664B1945BDD400879CCC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8D6E66531945BDD400879CCC /* MergeImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MergeImageTests-Info.plist"; sourceTree = "<group>"; };
+		8D6E66551945BDD400879CCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D6E66571945BDD400879CCC /* MergeImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeImageTests.m; sourceTree = "<group>"; };
+		8D6E66611945BE0B00879CCC /* UIImage+Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Overlay.h"; sourceTree = "<group>"; };
+		8D6E66621945BE0B00879CCC /* UIImage+Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Overlay.m"; sourceTree = "<group>"; };
+		8D6E66651945BFDC00879CCC /* audi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audi.png; sourceTree = "<group>"; };
+		8D6E66661945BFDC00879CCC /* christmas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = christmas.png; sourceTree = "<group>"; };
+		8D6E66671945BFDC00879CCC /* horse_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horse_1.png; sourceTree = "<group>"; };
+		8D6E66681945BFDC00879CCC /* horse_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horse_2.png; sourceTree = "<group>"; };
+		8D6E666E1945C14500879CCC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D6E66261945BDD400879CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6E662F1945BDD400879CCC /* CoreGraphics.framework in Frameworks */,
+				8D6E66311945BDD400879CCC /* UIKit.framework in Frameworks */,
+				8D6E662D1945BDD400879CCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6E66471945BDD400879CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6E664C1945BDD400879CCC /* XCTest.framework in Frameworks */,
+				8D6E664E1945BDD400879CCC /* UIKit.framework in Frameworks */,
+				8D6E664D1945BDD400879CCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D6E66201945BDD400879CCC = {
+			isa = PBXGroup;
+			children = (
+				8D6E66321945BDD400879CCC /* MergeImage */,
+				8D6E66511945BDD400879CCC /* MergeImageTests */,
+				8D6E662B1945BDD400879CCC /* Frameworks */,
+				8D6E662A1945BDD400879CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D6E662A1945BDD400879CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D6E66291945BDD400879CCC /* MergeImage.app */,
+				8D6E664A1945BDD400879CCC /* MergeImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D6E662B1945BDD400879CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D6E662C1945BDD400879CCC /* Foundation.framework */,
+				8D6E662E1945BDD400879CCC /* CoreGraphics.framework */,
+				8D6E66301945BDD400879CCC /* UIKit.framework */,
+				8D6E664B1945BDD400879CCC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D6E66321945BDD400879CCC /* MergeImage */ = {
+			isa = PBXGroup;
+			children = (
+				8D6E666D1945C04300879CCC /* images */,
+				8D6E66641945BE0F00879CCC /* UIImage+Overlay */,
+				8D6E663B1945BDD400879CCC /* AppDelegate.h */,
+				8D6E663C1945BDD400879CCC /* AppDelegate.m */,
+				8D6E663E1945BDD400879CCC /* Main.storyboard */,
+				8D6E66411945BDD400879CCC /* ViewController.h */,
+				8D6E66421945BDD400879CCC /* ViewController.m */,
+				8D6E66441945BDD400879CCC /* Images.xcassets */,
+				8D6E66331945BDD400879CCC /* Supporting Files */,
+			);
+			path = MergeImage;
+			sourceTree = "<group>";
+		};
+		8D6E66331945BDD400879CCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6E66341945BDD400879CCC /* MergeImage-Info.plist */,
+				8D6E66351945BDD400879CCC /* InfoPlist.strings */,
+				8D6E66381945BDD400879CCC /* main.m */,
+				8D6E663A1945BDD400879CCC /* MergeImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D6E66511945BDD400879CCC /* MergeImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D6E66571945BDD400879CCC /* MergeImageTests.m */,
+				8D6E66521945BDD400879CCC /* Supporting Files */,
+			);
+			path = MergeImageTests;
+			sourceTree = "<group>";
+		};
+		8D6E66521945BDD400879CCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6E66531945BDD400879CCC /* MergeImageTests-Info.plist */,
+				8D6E66541945BDD400879CCC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D6E66641945BE0F00879CCC /* UIImage+Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				8D6E66611945BE0B00879CCC /* UIImage+Overlay.h */,
+				8D6E66621945BE0B00879CCC /* UIImage+Overlay.m */,
+			);
+			name = "UIImage+Overlay";
+			sourceTree = "<group>";
+		};
+		8D6E666D1945C04300879CCC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8D6E666E1945C14500879CCC /* background.png */,
+				8D6E66651945BFDC00879CCC /* audi.png */,
+				8D6E66661945BFDC00879CCC /* christmas.png */,
+				8D6E66671945BFDC00879CCC /* horse_1.png */,
+				8D6E66681945BFDC00879CCC /* horse_2.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D6E66281945BDD400879CCC /* MergeImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6E665B1945BDD400879CCC /* Build configuration list for PBXNativeTarget "MergeImage" */;
+			buildPhases = (
+				8D6E66251945BDD400879CCC /* Sources */,
+				8D6E66261945BDD400879CCC /* Frameworks */,
+				8D6E66271945BDD400879CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeImage;
+			productName = MergeImage;
+			productReference = 8D6E66291945BDD400879CCC /* MergeImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D6E66491945BDD400879CCC /* MergeImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6E665E1945BDD400879CCC /* Build configuration list for PBXNativeTarget "MergeImageTests" */;
+			buildPhases = (
+				8D6E66461945BDD400879CCC /* Sources */,
+				8D6E66471945BDD400879CCC /* Frameworks */,
+				8D6E66481945BDD400879CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D6E66501945BDD400879CCC /* PBXTargetDependency */,
+			);
+			name = MergeImageTests;
+			productName = MergeImageTests;
+			productReference = 8D6E664A1945BDD400879CCC /* MergeImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D6E66211945BDD400879CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = jigar;
+				TargetAttributes = {
+					8D6E66491945BDD400879CCC = {
+						TestTargetID = 8D6E66281945BDD400879CCC;
+					};
+				};
+			};
+			buildConfigurationList = 8D6E66241945BDD400879CCC /* Build configuration list for PBXProject "MergeImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D6E66201945BDD400879CCC;
+			productRefGroup = 8D6E662A1945BDD400879CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D6E66281945BDD400879CCC /* MergeImage */,
+				8D6E66491945BDD400879CCC /* MergeImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D6E66271945BDD400879CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6E666A1945BFDC00879CCC /* christmas.png in Resources */,
+				8D6E666F1945C14500879CCC /* background.png in Resources */,
+				8D6E66451945BDD400879CCC /* Images.xcassets in Resources */,
+				8D6E66691945BFDC00879CCC /* audi.png in Resources */,
+				8D6E66371945BDD400879CCC /* InfoPlist.strings in Resources */,
+				8D6E666C1945BFDC00879CCC /* horse_2.png in Resources */,
+				8D6E666B1945BFDC00879CCC /* horse_1.png in Resources */,
+				8D6E66401945BDD400879CCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6E66481945BDD400879CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6E66561945BDD400879CCC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D6E66251945BDD400879CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6E66431945BDD400879CCC /* ViewController.m in Sources */,
+				8D6E663D1945BDD400879CCC /* AppDelegate.m in Sources */,
+				8D6E66631945BE0B00879CCC /* UIImage+Overlay.m in Sources */,
+				8D6E66391945BDD400879CCC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6E66461945BDD400879CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6E66581945BDD400879CCC /* MergeImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D6E66501945BDD400879CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D6E66281945BDD400879CCC /* MergeImage */;
+			targetProxy = 8D6E664F1945BDD400879CCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D6E66351945BDD400879CCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D6E66361945BDD400879CCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D6E663E1945BDD400879CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D6E663F1945BDD400879CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D6E66541945BDD400879CCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D6E66551945BDD400879CCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D6E66591945BDD400879CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D6E665A1945BDD400879CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D6E665C1945BDD400879CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeImage/MergeImage-Prefix.pch";
+				INFOPLIST_FILE = "MergeImage/MergeImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D6E665D1945BDD400879CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeImage/MergeImage-Prefix.pch";
+				INFOPLIST_FILE = "MergeImage/MergeImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8D6E665F1945BDD400879CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MergeImage.app/MergeImage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeImage/MergeImage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MergeImageTests/MergeImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8D6E66601945BDD400879CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MergeImage.app/MergeImage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeImage/MergeImage-Prefix.pch";
+				INFOPLIST_FILE = "MergeImageTests/MergeImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D6E66241945BDD400879CCC /* Build configuration list for PBXProject "MergeImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6E66591945BDD400879CCC /* Debug */,
+				8D6E665A1945BDD400879CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D6E665B1945BDD400879CCC /* Build configuration list for PBXNativeTarget "MergeImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6E665C1945BDD400879CCC /* Debug */,
+				8D6E665D1945BDD400879CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D6E665E1945BDD400879CCC /* Build configuration list for PBXNativeTarget "MergeImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6E665F1945BDD400879CCC /* Debug */,
+				8D6E66601945BDD400879CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D6E66211945BDD400879CCC /* Project object */;
+}
